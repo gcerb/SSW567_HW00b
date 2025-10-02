@@ -1,3 +1,8 @@
+"""
+This module provides functionality to classify triangles 
+based on the lengths of their sides.
+"""
+
 def classify_triangle(a, b, c):
     """Classify a triangle based on the lengths of its sides."""
     # Sort so largest side is last for right-triangle check
@@ -21,7 +26,3 @@ def classify_triangle(a, b, c):
         triangle_type += ' Right'
 
     return triangle_type
-
-
-
-    

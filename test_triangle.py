@@ -25,4 +25,5 @@ class TestTriangles(unittest.TestCase):
         self.assertEqual(classify_triangle(10, 1, 1), "Not a triangle")
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main() # pragma: no cover
+
